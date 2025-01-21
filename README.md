@@ -35,6 +35,7 @@ This was built in **WSL 2** on a windows machine and tested on a mac mini.
 ### Usage:
 ```bash
 python3 league_ranking_script.py
+```
 
 ### To Run the test:
 ```bash
