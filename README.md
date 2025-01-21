@@ -34,4 +34,4 @@ This was built in **WSL 2** on a windows machine.
    
 ### Usage:
 ```bash
-python league_ranking_script.py
+python3 league_ranking_script.py
