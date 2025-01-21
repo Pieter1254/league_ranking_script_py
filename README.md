@@ -6,7 +6,7 @@ This script calculates and displays the ranking of teams based on match results.
 This script is compatible with **Python 3.6+**.
 
 ## Operating System
-This was built in **WSL 2** on a windows machine.
+This was built in **WSL 2** on a windows machine and tested on a mac mini. 
 
 ## Requirements
 - Python 3.6 or higher.
