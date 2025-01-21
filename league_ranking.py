@@ -37,13 +37,17 @@ def calculate_league_ranking(input_lines):
 
     return "\n".join(result)
 
-
 def parse_line(line):
-    match = re.match(r"(.+) (\d+), (.+) (\d+)", line)
+    match = re.match(r"^(.+) (\d+), (.+) (\d+)$", line)
     if not match:
-        raise ValueError(f"Invalid input format: {line}")
+        raise ValueError(f"Invalid input format: {line}. Please use the format '<Team1> <Score1>, <Team2> <Score2>'.")
+
     team1, score1, team2, score2 = match.groups()
     return team1.strip(), int(score1), team2.strip(), int(score2)
+
+def validate_input(input_lines):
+    if len(input_lines) == 1 and ',' in input_lines[0]:
+        raise ValueError("Invalid input format: Multiple matches detected on one line. Each match should be on a separate line.")
 
 def get_input_from_user():
     print("Please enter the match results (one per line). Type 'done' when you are finished:")
@@ -76,6 +80,10 @@ if __name__ == "__main__":
         input_lines = get_input_from_user()
     else:
         print("Invalid choice. Please type 'file' or 'string'.")
-        sys.exit(1)  
+        sys.exit(1)
 
-    print(calculate_league_ranking(input_lines))
+    try:
+        validate_input(input_lines)
+        print(calculate_league_ranking(input_lines))
+    except ValueError as e:
+        print(e)
