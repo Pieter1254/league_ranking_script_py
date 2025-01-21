@@ -30,7 +30,15 @@ This was built in **WSL 2** on a windows machine and tested on a mac mini.
      ```
 
 2. **Via String Input:**
-   - Alternatively, you can provide the match results directly through the terminal. Enter each match result line-by-line, and type `done` when you're finished.
+   - Alternatively, you can provide the match results directly through the terminal. Enter each match result line-by-line, and type `done` when you're finished on a new line.
+
+     Example:
+     ```
+     Team A 1, Team B 1
+     Team C 2, Team D 2
+     Team A 3, Team B 3
+     done
+     ```
    
 ### Usage:
 ```bash
