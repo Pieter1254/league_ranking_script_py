@@ -29,6 +29,6 @@ This script is compatible with **Python 3.6+**.
 2. **Via String Input:**
    - Alternatively, you can provide the match results directly through the terminal. Enter each match result line-by-line, and type `done` when you're finished.
    
-### Sample Usage:
+### How to run the script:
 ```bash
 python league_ranking_script.py
