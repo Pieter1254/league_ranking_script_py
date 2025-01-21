@@ -45,10 +45,6 @@ def parse_line(line):
     team1, score1, team2, score2 = match.groups()
     return team1.strip(), int(score1), team2.strip(), int(score2)
 
-def parse_team_score(part):
-    tokens = part.rsplit(" ", 1)
-    return tokens[0], int(tokens[1])
-
 def get_input_from_user():
     print("Please enter the match results (one per line). Type 'done' when you are finished:")
     input_lines = []
