@@ -1,0 +1,16 @@
+BlesBridges A 1, Elvis B 0
+BonJovi C 2, Poison D 2
+TheBeattles A 1, ChuckBerry C 2
+RayCharles B 1, JerryLeeLewis D 3
+BlesBridges A 1, Elvis B 0
+BonJovi C 2, Poison D 2
+TheBeattles A 1, ChuckBerry C 2
+RayCharles B 1, JerryLeeLewis D 3
+BlesBridges A 1, Elvis B 0
+BonJovi C 2, Poison D 2
+TheBeattles A 1, ChuckBerry C 2
+RayCharles B 1, JerryLeeLewis D 3
+BlesBridges A 1, Elvis B 0
+BonJovi C 2, Poison D 2
+TheBeattles A 1, ChuckBerry C 2
+RayCharles B 1, JerryLeeLewis D 3
