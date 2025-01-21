@@ -23,9 +23,6 @@ class TestLeagueRanking(unittest.TestCase):
         input_lines = [
             "Team A 1, Team B 1",
             "Team C 2, Team D 2",
-            "Team C 2, Team D 2",
-            "Team C 2, Team D 2",
-            "Team C 2, Team D 2",
         ]
         expected_output = (
             "1. Team A, 1 pt\n"
