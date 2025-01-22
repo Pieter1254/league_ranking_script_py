@@ -47,4 +47,4 @@ python3 league_ranking_script.py
 
 ### To Run the test:
 ```bash
-python -m unittest tests_league_ranking.py
+python3 -m unittest tests_league_ranking.py
