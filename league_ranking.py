@@ -74,7 +74,7 @@ if __name__ == "__main__":
     choice = input("Do you want to provide a file path (type 'file') or string data (type 'string')? ").strip().lower()
     
     if choice == "file":
-        file_path = input("Please enter the file path: ").strip()
+        file_path = input("Please enter the file path (Include *.txt please): ").strip()
         input_lines = get_input_from_file(file_path)
     elif choice == "string":
         input_lines = get_input_from_user()
